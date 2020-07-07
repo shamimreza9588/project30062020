@@ -59,3 +59,16 @@ var modelclose_1 = document.getElementById("two-close-button1");
                 modelclose_4.onclick = function() {
                   this.parentElement.style.display = "none";
                 }
+/*div three for changing logo icon using html and css*/
+let parent3 = document.getElementById("parent_div_3");
+let btn3 = parent3.getElementsByClassName("btn_3")[0];
+let icon3 = document.getElementById('incon_3');
+    btn3.addEventListener("click", function() {
+      if(icon3.attributes[0].value == "btn_3") {
+        icon3.attributes[0].value = "fa fa-minus";
+      }else {
+        icon3.attributes[0].value = "fa fa-plus";
+      }
+    })
+  /*now javascript prctise hardly about 120*/
+  /*now javascript prctise hardly about 120*/
